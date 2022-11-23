@@ -10,7 +10,7 @@ export class VueloService {
 
   constructor(private http: HttpClient) {}
 
-    url = "http://localhost:3000"
+    url = "https://apiloopback1.herokuapp.com/"
 token: string = ''
 
 store(vuelo: VueloModel): Observable<VueloModel> {

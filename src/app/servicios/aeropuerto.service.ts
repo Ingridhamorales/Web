@@ -8,7 +8,8 @@ import { AeropuertoModel } from '../modelos/aeropuerto.model';
 })
 export class AeropuertoService {
 
-  url = "http://localhost:3000"
+  //url = "http://localhost:3000 esta url estaba en todos los serivios y se cambio por la otra"
+  url = "https://apiloopback1.herokuapp.com/"
   token: string = ''
   
   constructor(private http: HttpClient)
