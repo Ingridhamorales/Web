@@ -8,7 +8,7 @@ import { UsuarioModel } from '../modelos/usuario.model';
 })
 export class SeguridadService {
 
-  url = "https://apiloopback1.herokuapp.com/";
+  url = "http://localhost:3000";
   sessionUserData = new BehaviorSubject<UsuarioModel>(new UsuarioModel());
 
   constructor(private http: HttpClient) { 

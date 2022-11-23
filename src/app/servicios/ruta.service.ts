@@ -8,7 +8,7 @@ import { RutaModel } from '../modelos/ruta.model';
 export class RutaService {
 
   constructor(private http: HttpClient) { }
-    url = "https://apiloopback1.herokuapp.com/"
+    url = "http://localhost:3000"
 token: string = ''
 
 store(ruta: RutaModel): Observable<RutaModel> {

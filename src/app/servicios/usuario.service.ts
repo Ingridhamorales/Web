@@ -8,7 +8,7 @@ import { SeguridadService } from './seguridad.service';
   providedIn: 'root'
 })
 export class UsuarioService {
-  url = "https://apiloopback1.herokuapp.com/"
+  url = "http://localhost:3000"
 token: string = ''
 
   constructor(private http: HttpClient,
