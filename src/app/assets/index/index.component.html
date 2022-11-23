@@ -1,9 +1,7 @@
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+<h2 >Best Airport</h2>
 
-<h2>Best Airport</h2>
-
-<div class="carousel ">
+<div class="carousel carousel-slider  ">
  
 
     <a href="#" routerLink="carousel-item"><img
@@ -31,10 +29,8 @@
     document.addEventListener('DOMContentLoaded', function () {
         var elems = document.querySelectorAll('.carousel');
         var instances = M.Carousel.init(elems,{
-        duration:1000,
+        duration:500,
         indicators:true,
-        fullWidth:false
-
     
     });
     });
